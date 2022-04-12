@@ -27,6 +27,7 @@ interface Motorist {
 export function MotoristList() {
     
     const [motorists, setMotorists] = useState<Motorist[]>([]);
+    
 
     
     useEffect(() => {

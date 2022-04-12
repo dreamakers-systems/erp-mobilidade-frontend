@@ -11,7 +11,6 @@ import axios from "axios";
 
 import "@pankod/refine/dist/styles.min.css";
 
-import { PostList, PostCreate, PostEdit, PostShow } from "./components/pages/posts"
 import { MotoristCreate } from "./components/pages/motorists";
 import { Login } from "./components/pages/login";
 import { MotoristList } from "./components/pages/motorists/list";
@@ -80,7 +79,6 @@ const App: React.FC = () => {
                 {
                     name: "motorists",
                     list: MotoristList,
-                    create: MotoristCreate,
                     options:{label: "Motoristas", route: "motorists", }
 
                     
