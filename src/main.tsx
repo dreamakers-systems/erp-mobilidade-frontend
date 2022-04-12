@@ -5,8 +5,8 @@ import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
 
 const providerConfig = {
-    domain: "krypta.us.auth0.com",
-    clientId: "iWSNUTO5Vg1H6JIFzSf6OQ6EnncwKpAF",
+    domain: "",
+    clientId: "",
     redirectUri: window.location.origin,
   };
 
